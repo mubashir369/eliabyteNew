@@ -2,6 +2,7 @@ import React from "react";
 import Preloader from "../components/PreLoader/PreLoader.js";
 import { ReactTyped } from "react-typed";
 import Header from "../components/Header/Header.js";
+// import ParticleEffect from "../components/ParticleEffect/ParticleEffect.js";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <main className="main">
         <section id="hero" className="hero section dark-background">
           <div className="particlehead" />
+          {/* <ParticleEffect/> */}
           <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
           <div className="container">
             <div
@@ -46,7 +48,7 @@ const HomePage = () => {
                       className="typed-words"
                     />
                   </span>
-                  {/* <span className="typed-words" /> */}
+                 
                 </h1>
               </div>
             </div>
@@ -226,8 +228,7 @@ const HomePage = () => {
                     </p>
                   </div>
                 </div>
-                {/* End Features Item*/}
-                {/* End Features Item*/}
+               
                 <div
                   className="features-item d-flex mt-5 ps-0 ps-lg-3"
                   data-aos="fade-up"
