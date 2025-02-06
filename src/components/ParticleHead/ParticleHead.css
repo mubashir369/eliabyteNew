@@ -1,0 +1,5 @@
+.particlehead {
+  position: absolute;
+  z-index: 2;
+  opacity: 0.2;
+}

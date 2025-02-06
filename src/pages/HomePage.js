@@ -3,6 +3,7 @@ import Preloader from "../components/PreLoader/PreLoader.js";
 import { ReactTyped } from "react-typed";
 import Header from "../components/Header/Header.js";
 import ContactForm from "../components/ContactForm/ContactForm.js";
+import ParticleHead from "../components/ParticleHead/ParticleHead.js";
 // import ParticleEffect from "../components/ParticleEffect/ParticleEffect.js";
 
 const HomePage = () => {
@@ -11,8 +12,8 @@ const HomePage = () => {
       <Header />
       <main className="main">
         <section id="hero" className="hero section dark-background">
-          <div className="particlehead" />
-          {/* <ParticleEffect/> */}
+          {/* <div className="particlehead" /> */}
+       <ParticleHead/>
           <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
           <div className="container">
             <div
