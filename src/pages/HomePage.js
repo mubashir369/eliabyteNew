@@ -102,7 +102,7 @@ const HomePage = () => {
                 <div className="icon-box">
                   <i className="bi bi-card-list" />
                   <h3>
-                    <a href="">Custom Developmen</a>
+                    <a href="">Custom Development</a>
                   </h3>
                 </div>
               </div>
